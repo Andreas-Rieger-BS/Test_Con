@@ -1,0 +1,1 @@
+echo 'Jenkins branch master.'
