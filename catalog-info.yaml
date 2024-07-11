@@ -4,7 +4,7 @@ metadata:
   name: Test_Con
   annotations:
     github.com/project-slug: Andreas-Rieger/Test_Con
-    'jenkins.io/job-full-name': Test_Con/main
+    jenkins.io/job-full-name: Test_Con/main
 spec:
   type: service
   lifecycle: experimental
