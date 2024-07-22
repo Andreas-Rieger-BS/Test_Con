@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: Andreas-Rieger/Test_Con
     jenkins.io/job-full-name: Test_Con/main
-    sonarqube.org/project-key: Integration_Jenkins
+    sonarqube.org/project-key: Test_Con
 spec:
   type: service
   lifecycle: experimental
