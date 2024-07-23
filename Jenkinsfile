@@ -19,7 +19,7 @@ pipeline {
          stage('dependencyTrackPublisher') {
             steps {
                 withCredentials([string(credentialsId: '506ed685-4e2b-4d31-a44f-8ba8e67b6341', variable: 'API_KEY')]) {
-                    dependencyTrackPublisher artifact: 'target/bom.xml', projectName: 'Test_Con', projectVersion: 'my-version', synchronous: true, dependencyTrackApiKey: API_KEY, projectProperties: [tags: ['Jenkins', 'Dependencytrack'], swidTagId: '1', group: 'automation]
+                    dependencyTrackPublisher artifact: 'target/bom.xml', projectName: 'Test_Con', projectVersion: 'my-version', synchronous: true, dependencyTrackApiKey: API_KEY, projectProperties: [tags: ['Jenkins', 'Dependencytrack'], swidTagId: '1', group: 'automation']
                 }
             }
         }
