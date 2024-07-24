@@ -6,6 +6,7 @@ metadata:
     github.com/project-slug: Andreas-Rieger/Test_Con
     jenkins.io/job-full-name: Test_Con/main
     sonarqube.org/project-key: Test_Con
+    dependencytrack/project-id: 37620400-5d99-4e3f-9ac6-ffeec12d7ee6
 spec:
   type: service
   lifecycle: experimental
