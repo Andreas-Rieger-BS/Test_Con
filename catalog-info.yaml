@@ -7,6 +7,7 @@ metadata:
     jenkins.io/job-full-name: Test_Con/main
     sonarqube.org/project-key: Test_Con
     dependencytrack/project-id: 37620400-5d99-4e3f-9ac6-ffeec12d7ee6
+    jira/project-key: BAC
 spec:
   type: service
   lifecycle: experimental
